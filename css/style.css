@@ -1,0 +1,98 @@
+@font-face{
+  font-family: Regular;
+  src: url(../fonts/Lato-Regular.ttf);
+}
+@font-face{
+  font-family: Light;
+  src: url(../fonts/Lato-Light.ttf);
+}
+@font-face{
+  font-family: Bold;
+  src: url(../fonts/Lato-Bold.ttf);
+}
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Light;
+}
+
+#banner{
+	padding-top: 10px;
+}
+#banner ul{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	overflow: hidden;
+}
+#banner li{
+	float: left;
+}
+#banner li a{
+	display: block;
+	text-decoration: none;
+	padding: 10px;
+	color: #fff;
+	font-family: Regular;
+	font-size: 18px;
+}
+#banner li a:hover{
+	text-decoration: none;
+	border-bottom: 2px solid #1CABE2;
+	color: #fff;
+	transition: 0.2s ease-in;
+}
+#banner img{
+	width: 50px;
+	height: 50px;
+}
+#banner{
+	 background-image:radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.8)), url('../img/2.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+#banner h1{
+	color: #fff;
+	padding-top: 90px;
+	font-family: Bold;
+	line-height: 1.3em;
+	font-size: 50px;
+}
+
+#banner p{
+	width: 50%;
+	color: #fff;
+	padding-top: 10px !important;
+	font-size: 16px;
+}
+#banner button{
+	padding: 15px;
+	color: #fff;
+	background-color: #1CABE2;
+	border-radius: 0px;
+	border:none;
+	width: 130px;
+	font-family:Regular;
+	font-size: 18px;
+}
+#banner .login{
+	background-color: rgba(0,0,0,0.7);
+	border: 2px dotted #1CABE2;
+	padding: 20px;
+	margin-top: 100px;
+}
+#banner .login h3{
+	color: #fff;
+	font-family: Bold;
+}
+#banner .login input{
+	padding: 23px;
+	background-color: transparent;
+	border: 1px solid #1CABE2;
+	color: #fff;
+}
+#banner .login label{
+	color: #fff;
+	font-family: Light;
+}
